@@ -8,11 +8,11 @@ body {
     margin: 0;
 }
 
-.hero {
+.home {
     position: relative;
 }
 
-.hero > div > div {
+.home > div > div {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
@@ -23,7 +23,7 @@ body {
     padding: 0 0 48px 0;
 }
 
-.hero h1, h2 {
+.home h1, h2 {
     z-index: 2;
     position: relative;
     background: #FFF;
@@ -32,7 +32,7 @@ body {
     flex: 1 1 auto;
 }
 
-.hero picture {
+.home picture {
     display: block;
     position: absolute;
     left: 0;
@@ -41,7 +41,7 @@ body {
     bottom: 0;
 }
 
-.hero img {
+.home img {
     object-fit: cover;
     width: 100%;
     height: 100%;
