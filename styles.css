@@ -47,11 +47,11 @@ body {
     height: 100%;
 }
 
-.section {
+.section-1 {
     position: relative;
 }
 
-.section > div > div {
+.section-1 > div > div {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
@@ -62,7 +62,7 @@ body {
     padding: 0 0 48px 0;
 }
 
-.section h1, h2 {
+.section-1 h1, h2 {
     z-index: 2;
     position: relative;
     background: #FFF;
@@ -71,7 +71,7 @@ body {
     flex: 1 1 auto;
 }
 
-.section picture {
+.section-1 picture {
     display: block;
     position: absolute;
     left: 0;
@@ -80,7 +80,7 @@ body {
     bottom: 0;
 }
 
-.section img {
+.section-1 img {
     object-fit: cover;
     width: 100%;
     height: 100%;
