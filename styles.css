@@ -98,11 +98,11 @@ body {
     padding-left: 400px;
 }
 
-.section.right {
+.section-right {
     position: relative;
 }
 
-.section.right h1, h2 {
+.section-right h1, h2 {
     z-index: 2;
     position: relative;
     background: #FFF;
@@ -111,7 +111,7 @@ body {
     flex: 1 1 auto;
 }
 
-.section.right picture {
+.section-right picture {
     display: block;
     position: absolute;
     left: 0;
@@ -120,7 +120,7 @@ body {
     bottom: 0;
 }
 
-.section.right img {
+.section-right img {
     object-fit: cover;
     width: 100%;
     height: 100%;
