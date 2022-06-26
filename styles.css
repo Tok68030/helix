@@ -98,6 +98,10 @@ body {
     padding-left: 400px;
 }
 
+.section.right {
+    position: relative;
+}
+
 .section.right h1, h2 {
     z-index: 2;
     position: relative;
