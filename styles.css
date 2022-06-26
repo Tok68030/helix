@@ -102,7 +102,7 @@ body {
     padding-left: 1200px;
 }
 
-.section2 h1, h2, p {
+.section2 h1, h2, h3 {
     z-index: 2;
     position: relative;
     background: #FFF;
