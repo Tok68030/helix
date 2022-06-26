@@ -71,7 +71,7 @@ body {
     flex: 1 1 auto;
 }
 
-.section.right {
+.section.right > div > div {
     padding-left: 400px;
     max-width: 800px;
 }
