@@ -71,11 +71,6 @@ body {
     flex: 1 1 auto;
 }
 
-.section.right > div > div {
-    padding-left: 400px;
-    max-width: 800px;
-}
-
 .section picture {
     display: block;
     position: absolute;
@@ -89,4 +84,16 @@ body {
     object-fit: cover;
     width: 100%;
     height: 100%;
+}
+
+.section.right > div > div {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: flex-end;
+    height: 100vh;
+    max-width: 800px;
+    padding: 0 0 48px 0;
+    padding-left: 400px;
 }
