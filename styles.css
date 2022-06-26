@@ -20,7 +20,7 @@ body {
     align-content: flex-end;
     height: 100vh;
     max-width: 600px;
-    padding: 0 0 48px 0;
+    padding: 0 0 200px 0;
 }
 
 .home h1, h2 {
@@ -58,9 +58,8 @@ body {
     align-items: center;
     align-content: flex-end;
     height: 100vh;
-    max-width: 600px;
+    max-width: 400px;
     padding: 0 0 48px 0;
-    padding-left: 200px;
 }
 
 .section h1, h2 {
@@ -70,6 +69,11 @@ body {
     padding: 6px 24px;
     margin: 0;
     flex: 1 1 auto;
+}
+
+.section.right {
+    padding-left: 400px;
+    max-width: 800px;
 }
 
 .section picture {
