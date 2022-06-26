@@ -86,7 +86,11 @@ body {
     height: 100%;
 }
 
-.section > div > div {
+.sectionR {
+    position: relative;
+}
+
+.sectionR > div > div {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
@@ -96,10 +100,6 @@ body {
     max-width: 800px;
     padding: 0 0 48px 0;
     padding-left: 400px;
-}
-
-.sectionR {
-    position: relative;
 }
 
 .sectionR h1, h2 {
