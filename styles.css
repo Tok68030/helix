@@ -86,7 +86,7 @@ body {
     height: 100%;
 }
 
-.section.right > div > div {
+.section > div > div {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
