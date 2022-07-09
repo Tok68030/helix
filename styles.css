@@ -56,10 +56,9 @@ body {
     justify-content: center;
     flex-wrap: wrap;
     align-items: center;
-    align-content: flex-start;
+    align-content: flex-end;
     height: 100vh;
     max-width: 400px;
-    padding: 200px 200px 0 0;
     padding: 0 0 48px 0;
 }
 
